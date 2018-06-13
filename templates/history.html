@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wovie</title>
+    <link rel="shortcut icon" href="http://static1.mtime.cn/favicon.ico" type="image/x-icon">
+</head>
+
+<body style="margin: 0;">
+<div style="height: 28px;color: #d5d5d5;background-color: #545652;min-width: 950px;font: 12px Helvetica,Arial,sans-serif;line-height: 1.62;font-size: 12px;margin: 0;padding: 0;">
+    <div style="margin: 0;padding: 0;display: block;color: #d5d5d5;line-height: 1.62;font-size: 12px;">
+        <div style="float: right;margin: 0 12px 0 0;line-height: 28px;padding: 0;display: block;color: #d5d5d5;font-size: 12px">
+            <a style="display: inline-block;zoom: 1;margin: 0;height: 28px;color: #d5d5d5;cursor: pointer;text-decoration:none;line-height:28px"
+               href="#">欢迎：</a>
+            <a id="username"
+               style="display: inline-block;zoom: 1;margin: 0;padding-right: 12px;height: 28px;color: #d5d5d5;cursor: pointer;text-decoration:none;line-height:28px"
+               href="#">{{ username }}</a>
+            <a style="display: inline-block;zoom: 1;margin: 0;padding: 0 12px;height: 28px;color: #d5d5d5;cursor: pointer;text-decoration:none;line-height:28px"
+               href="http://localhost:8080/userLogin/logout">注销</a>
+            <a style="display: inline-block;zoom: 1;margin: 0;padding: 0 12px;height: 28px;color: #d5d5d5;cursor: pointer;text-decoration:none;line-height:28px"
+               href="http://localhost:8080/userLogin/modify?ID={{ uid }}">修改</a>
+        </div>
+        <div style="font-size: 0;margin: 0;padding: 0;display: block;color: #d5d5d5;line-height: 1.62;">
+            <ul style="margin: 0;padding: 0;list-style: none;display: block;font-size: 0;color: #d5d5d5;line-height: 1.62">
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="/toIndex?uid={{ uid }}&username={{ username }}">主页</a>
+                </li>
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="https://book.douban.com" target="_blank">读书</a>
+                </li>
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="https://movie.douban.com" target="_blank">电影</a>
+                </li>
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="https://music.douban.com" target="_blank">音乐</a>
+                </li>
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="https://www.douban.com/location" target="_blank">同城</a>
+                </li>
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="https://www.douban.com/group" target="_blank">小组</a>
+                </li>
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="https://read.douban.com/?dcs=top-nav&dcm=douban" target="_blank">阅读</a>
+                </li>
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="https://douban.fm/?from_=shire_top_nav" target="_blank">FM</a>
+                </li>
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="https://time.douban.com/?dt_time_source=douban-web_top_nav" target="_blank">时间</a>
+                </li>
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="https://market.douban.com/?utm_campaign=douban_top_nav&utm_source=douban&utm_medium=pc_web"
+                       target="_blank">市集</a>
+                </li>
+                <li style="display:inline-block;zoom: 1;line-height: 28px;font-size: 12px;vertical-align:baseline;margin: 0;padding: 0;text-align: -webkit-match-parent;color: #d5d5d5;">
+                    <a style="display: inline-block;zoom: 1;padding: 0 12px;height: 28px;color: #d5d5d5;cursor:pointer;text-decoration:none;line-height:28px;font-size: 12px;text-align: -webkit-match-parent;"
+                       href="/history?uid={{ uid }}&username={{ username }}"
+                       >历史</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div style="background-color:#f0f3f5;">
+    <div style="background-color:#f0f3f5;display: block;height: 75px;border-bottom:1px solid #e5ebe4;">
+        <div style="width: 145px;height: 56px;font-size: 30px;font-weight:bold;padding-left: 120px;padding-top: 15px;color: #27a;font-family:'微软雅黑';">
+            沃电影
+        </div>
+    </div>
+    <div style="background-color:#f0f3f5;display: block;height: 40px;">
+        <div style="float: none;zoom: 1;font-size: 14px;margin-top: 0;padding-left: 82px;display: block;line-height: 1.62;">
+            <ul>
+                <li style="display: inline;margin-right: 25px;color: #27a">
+                    <a style="color: #27a;text-decoration:none" href="https://movie.douban.com/explore">选电影</a>
+                </li>
+                <li style="display: inline;margin-right: 25px;color: #27a">
+                    <a style="color: #27a;text-decoration:none" href="https://movie.douban.com/cinema/nowplaying/">影讯&amp;购票</a>
+                </li>
+                <li style="display: inline;margin-right: 25px;color: #27a">
+                    <a style="color: #27a;text-decoration:none" href="https://movie.douban.com/chart">排行榜</a>
+                </li>
+                <li style="display: inline;margin-right: 25px;color: #27a">
+                    <a style="color: #27a;text-decoration:none" href="https://movie.douban.com/tag/">分类</a>
+                </li>
+                <li style="display: inline;margin-right: 25px;color: #27a">
+                    <a style="color: #27a;text-decoration:none" href="https://movie.douban.com/review/best/">影评</a>
+                </li>
+                <li style="display: inline;margin-right: 25px;color: #27a">
+                    <a style="color: #27a;text-decoration:none"
+                       href="https://movie.douban.com/annual/2017?source=navigation">2017年度榜单</a>
+                </li>
+                <li style="display: inline;margin-right: 25px;color: #27a">
+                    <a style="color: #27a;text-decoration:none"
+                       href="https://movie.douban.com/standbyme/2017?source=navigation">2017观影报告</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div style="width: 81%;overflow:hidden;margin: 0;padding: 0;display: block;zoom: 1;margin: auto;padding-top: 20px">
+    <div style="width: 1040px;float: left">
+        <div style="margin: 0;padding: 0">
+            <h2 style="font: 15px Arial, Helvetica, sans-serif;color: #111;padding-bottom: 10px;border-bottom: 1px solid #eaeaea;margin-bottom: 18px;line-height: 150%">
+                观影历史</h2>
+        </div>
+        <div style="width: 1040px;padding: 0;display: block;font-size: 13px;text-align: center">
+            {% for item in movie_list %}
+            <a style="width: 115px;height: 210px;color: #37a;display: block;float: left;text-align: center;
+    margin: 0 25px 10px 0;text-decoration: none" href="/info?id={{ item.id }}&username={{ username }}&uid={{ uid }}">
+                <div style="width: 115px;height: 161px;overflow: hidden;background-size: 100%;margin: 0;padding: 0;">
+                    <img src={{ item.src }} lt={{ item.moviename }} data-x="1500" data-y="2200" style="width: 100%"/>
+                </div>
+                <p style="width: 115px;height: 44px;margin: 5px 0 0 0;overflow: hidden;display: block;">{{
+                    item.movieName }}
+                    <strong style="color: #e09015;font-style:normal;font-weight:normal;">{{ item.averating }}</strong>
+                </p>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+@charset "utf-8";
+/**基本格式开始***************/
+*{word-break:break-all;}
+.others body,.others div,.others ul,.others ol,.others li,.others dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p
+{margin:0 auto;padding:0px;font-size:12px; font-family:微软雅黑;width:100%;}
+ul{list-style:none;}
+img,a img {border:none;}
+a{text-decoration:none;}
+a{color:#000;}
+a:hover{text-decoration:none;}
+/**基本格式结束***************/
+
+/*森科单页头部开始*/
+.others{background:url(../img/dy_pic11.jpg);display: inline-block;float: left}
+.others .movies{margin:0 auto;width:680px;height:450px;position:relative;}
+.others .movies p.PP{width:510px;height:50px;font-size:16px;color:#333;text-align:center;position:absolute;top:60px; left:300px;}
+#four_flash{position:relative;width:660px;height:400px; margin:0 auto;position:absolute;bottom:40px;}
+#four_flash .flashBg{width:590px;height:400px; margin:0 auto;position:relative;overflow:hidden;}
+#four_flash .flashBg ul.mobile{width:2000%;height:400px; position:absolute;top:15px; left:0;}
+#four_flash .flashBg ul.mobile li{border:4px solid #f2f7f6;float:left;width:160px;height:220px;margin-left:20px;padding-top:20px;color: #6c6e85;}
+#four_flash .flashBg ul.mobile li:hover{border:6px solid #37a; color: #050126;}
+#four_flash .flashBg ul.mobile li img{width:140px;height:140px;display:block; margin:0 auto;border:6px solid #37a; border-radius:120px;}
+#four_flash .flashBg ul.mobile li dd{font-size:14px;width:160px;line-height:30px;text-align:center;border-bottom:1px solid #6C6E85;}
+#four_flash .flashBg ul.mobile li p{font-size:12px; text-align:center;width:160px; line-height:20px;margin-top:10px;}
+#four_flash .flashBg ul.mobile li a{display:block;background:url(../img/jiantou.png);width:31px;height:31px;border:0px;margin:8px auto;}
+#four_flash .flashBg ul.mobile li a:hover{background:url(../img/jiantou2.png);}
+#four_flash .but_left{width:30px;height:20px;position:absolute; top:85px; left:0px;}
+#four_flash .but_right{width:30px;height:20px; position:absolute; top:85px; right:0px;}
+
+#four_flash .but_left:hover{background:url(../img/qianxleft1.png) no-repeat;}
+#four_flash .but_right:hover{background:url(../img/qianxr1.png) no-repeat;}
+
+
+

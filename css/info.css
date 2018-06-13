@@ -1,0 +1,207 @@
+body,p,h2{
+	margin: 0;
+}
+
+h2{
+	color: #007722;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #35b558;
+}
+
+
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+
+}
+
+.box{
+	background: white;
+	clear: both;
+	margin-left: 100px;
+	padding-bottom: 20px;
+	width: 750px;
+	position:absolute;
+
+}
+.nbgnbg img{
+	float: left;
+    padding-left: 15px;
+	padding-top: 15px;
+}
+
+#poster{
+	float: right;
+	border-left: #eaeaea 2px solid;
+	padding-left: 25px;
+}
+
+#recommand{
+	float: right;
+}
+
+.re_text{
+	width: 200px;
+	float: right;
+	font: 40px/48px "微软雅黑";
+	color: #8b8b8b;
+
+}
+
+
+
+.text h1{
+    word-wrap: break-word;
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    color: #494949;
+    margin: 0;
+    padding: 0 0 15px 0;
+    line-height: 1.1;
+}
+.text h1 a{
+	color: #353535;
+}
+.text h1 a:hover{
+	color: #35b558;
+}
+
+
+.info{
+	font: 16px/36px "微软雅黑";
+	max-width: 300px;
+	padding-top: 15px;
+    padding-left: 30px;
+	vertical-align: top;
+	display: inline-block;
+}
+.info span{
+	color:#8B8B8B;
+}
+
+.info span a{
+	color:#353535;
+}
+
+.actor{
+	/*display: inline-block;*/
+	max-width: 400px;
+}
+
+.nav-secondary {
+    width: 1040px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.nav-secondary ul {
+    margin: 9px 0;
+}
+
+.nav-secondary li {
+    display: inline;
+    margin-right: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tags ul {
+	height: 55px;
+	padding: 0;
+
+}
+
+
+.icon li{
+	float:right;
+}
+
+.list li a{
+	color: #27a;
+}
+.list li a:hover{
+	color: #35b558;
+}
+.list li span{
+	float: right;
+	font-size: 14px;
+	color: #8B8B8B ;
+}
+
+.aside {
+	float: right;
+
+}
+
+
+.ad  img {
+	float: right;
+	margin-right: 20px;
+}
+
+#play_btn {
+    display: block;
+    margin: 0 auto;
+	margin-top: 10px;
+    text-align: center;
+    width: 90px;
+	height: 20px;
+    line-height: 20px;
+    background-color: #268dcd;
+    color: #fff;
+    border-radius: 2px;
+	border: 0px;
+}
+
+
+.tags{
+	display: block;
+	/*background-color: #F4F4EC*/
+}
+
+.tags a{
+	color: #27a;
+}
+
+.tags a:hover{
+	color: #35b558;
+}
+
+
+.tags li {
+	font-family: Helvetica;
+	/*margin: 10px;*/
+	/*background-color: #f5f5f5;*/
+	color: #27a;
+}
+.tags ul{
+	line-height: 30px;
+}
+.tags h2{
+	margin-right: 1px;
+}
+
