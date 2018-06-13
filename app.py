@@ -11,7 +11,7 @@ def home():
     return 'hello'
 
 
-@app.route('/index', methods=['get', 'POST'])
+@app.route('/index', methods=['get','POST'])
 def get_item():
     username = 'micheal'
     uid = 21
