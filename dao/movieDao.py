@@ -4,6 +4,7 @@ from utils.DBUtils import DBUtils
 from utils.AlgorithmUtils import findAllJson2, getRecommendations
 import random
 
+
 host = 'localhost'
 user = 'python'
 password = 'python'
