@@ -70,7 +70,7 @@ def getMovieById(id):
 
 def recordScore(uid, score, movieId):
     dbutils = DBUtils(host, user, password, db, port)
-    sql = 'insert into history (uid,mid,score,dt) values (%d,%d,%d,now())' % (int(uid), int(score), int(movieId))
+    sql = 'insert into history (uid,mid,score,dt) values (%d,%d,%d,now())' % (int(uid),  int(movieId)， int(score))
     dbutils.insert(sql)
     dbutils.close()
 
